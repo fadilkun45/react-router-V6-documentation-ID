@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+*  {
+  padding: 0 ;
+  margin: 0 ;
+  font-family: 'Nunito', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 90% ;
+  margin: 0 auto ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row {
+  display: flex ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.col {
+  display: flex ;
+  flex-direction: column ;
 }
 
-.App-link {
-  color: #61dafb;
+.flex-between {
+  justify-content: space-between ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.items-center {
+  align-items: center ;
+}
+
+nav {
+  background-color: #278c42 ;
+  color: #FFF ;
+}
+
+.nav-logo {
+  width: 20% ;
+  font-size: 20px ;
+}
+
+.nav-link {
+  display: flex ;
+  width: 20% ;
+}
+
+.nav-link a {
+  padding: 10px 8px ;
+  text-decoration: none ;
+  color: #FFF;
+  justify-content: space-between;
+  font-size: 18px ;
+}
+
+.nav-link a.active {
+  background-color: #007040 ;
+}
+
+.text-center {
+  text-align: center ;
+}
+
+.m-10 {
+  margin: 20px auto ;
+}
+
+.m-1 {
+  margin: 5px auto ;
+}
+
+.m-5 {
+  margin: 12px auto ;
+}
+
+.container h2 {
+  margin-top: 30px ;
+}
+
+.container h3 {
+  margin: 20px auto ;
+
+}
+
+.text-left {
+  text-align: left ;
+}
+
+.bg-blue {
+  background-color: #209e67 ;
+}
+
+.text-white {
+  color: #FFF ;
+}
+
+.p-10 {
+  padding: 20px;
+}
+
+.center {
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  height: 100vh ;
+  width: 100% ;
+}
+
+.btn {
+  text-align: center ;
+  border: none ;
+  background-color: #209e67 ;
+  font-size: 20px ;
+  cursor: pointer;
+  color: #FFF ;
+  padding: 10px ;
+  border-radius: 10px ;
+  margin: 10px auto ;
+}
+
+.center a {
+  text-decoration: none ;
+  color: #209e67 ;
 }
