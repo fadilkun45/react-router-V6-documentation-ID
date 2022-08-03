@@ -9,9 +9,9 @@ const Navbar = () => {
                     <h1>React Router V6</h1>
                 </div>
                 <div className="nav-link">
-                    <NavLink to="/" activeClassName="active" >Home</NavLink>
-                    <NavLink to="/dashboard"  activeClassName="active">Dashboard</NavLink>
-                    <NavLink to="/detail/1"  activeClassName="active" >Detail</NavLink>
+                    <NavLink to="/"  className={({isActive}) => isActive ? 'Active' : ''}>Home</NavLink>
+                    <NavLink to="/dashboard"  className={({isActive}) => isActive ? 'Active' : ''}>Dashboard</NavLink>
+                    <NavLink to="/detail/1"  className={({isActive}) => isActive ? 'Active' : ''}>Detail</NavLink>
                     <NavLink to="/login">Login</NavLink>
                 </div>
             </div>
