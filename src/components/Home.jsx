@@ -2,13 +2,14 @@ import React from 'react'
 
 const Home = () => {
     return (
-      <div className="container flex col text-center m-10 p-10  bg-blue text-white">
+      <div className="container flex col text-center m-10 p-10 bg-blue text-white">
           <h2>React Router DOM V6 Documentation</h2>
           <p className='m-1'>Di dokumentasi ini sudah ada</p>
           <p className='m-1' >- navbar saat link active </p>
           <p className='m-1' >- Page yang tidak ada navbar</p>
           <p className='m-1' >- Protected Page (simple auth)</p>
           <p className='m-1' >- Default Page saat awal masuk</p>
+          <p className='m-1' >- query Params Search</p>
 
             <h3>sistem nested Page di react router V6</h3>
             <p>jadi di react router v6 ada fitur nested dimana fitur ini sangat berguna saat ingin membuat 2 page atau lebih menjadi satu layout contoh saja page ini dan page dashboard dimana dalam satu layout yang ada navbar nya. dan diluar ada page login yang tidak memiliki navbar.</p>
@@ -37,7 +38,7 @@ const Home = () => {
             <h3>Page Detail</h3>
             <p>untuk Page detail jadi page ini mengambil param dari url dimana selanjut nya page detail ini akan mengelola sesuai kebutuhan. contoh sebuah web blog maka pada saat masuk ke detail blog id/param dari url yang dikirimkan akan di olah untuk merequest content ke server yang selanjut nya data dari server diolah oleh detail blog</p>
             
-            <h3 className='m-10'>kalau bingung dengan dokumentasi buatan saya Bisa chat saya di messenger <a href="#">Faldi Rmdhn</a> terimakasih :)</h3>
+            {/* <h3 className='m-10'>kalau bingung dengan dokumentasi buatan saya Bisa chat saya di messenger <a href="#">Faldi Rmdhn</a> terimakasih :)</h3> */}
       </div>
     )
 }
